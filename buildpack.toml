@@ -3,21 +3,21 @@ id = "genericlawcoder/heroku-buildpack-apt"
 name = "Heroku Buildpack Apt"
 version = "2.0.0"
 
-[apis]
-[apis.buildpack]
+[[apis]]
+[[apis.buildpack]]
   deprecated = []
   supported = ["0.2", "0.3", "0.4", "0.5"]
-[apis.platform]
+[[apis.platform]]
   deprecated = []
   supported = ["0.3", "0.4", "0.5"]
 
 # For backwards compatibility the minimum supported APIs are provided in RFC-0011 format
 # https://github.com/buildpacks/rfcs/blob/main/text/0011-lifecycle-descriptor.md
-[api]
+[[api]]
   platform = "0.3"
   buildpack = "0.2"
 
-[lifecycle]
+[[lifecycle]]
   version = "0.16.1"
 
 [[stacks]]
