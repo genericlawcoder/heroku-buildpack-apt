@@ -9,7 +9,7 @@ set -eo pipefail
 
 # parse and derive params
 BUILD_DIR="/cnb/buildpacks/genericlawcoder_heroku-buildpack-apt/2.1.4"
-CACHE_DIR=$2
+CACHE_DIR="/cnb/buildpacks/genericlawcoder_heroku-buildpack-apt/2.1.4"
 LP_DIR=$(cd "$(dirname "$0")"; cd ..; pwd)
 
 function error() {
