@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
+echo "Checking for Aptfile in: $1"
 if [[ -f "$1/Aptfile" ]]; then
   echo "Apt"
   exit 0
