@@ -1,13 +1,18 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-echo "Working directory: $(pwd)"
+
+
+echo "Working directory: $(pwd)" 
+
+echo "Checking for Aptfile in: $1" 
+
 AptfilePath="/workspace/Aptfile"
-echo "Checking for Aptfile in: $AptfilePath"
-if [[ -f "$AptfilePath" ]]; then
-  echo "Apt"
-  exit 0
-else
-  echo "'Aptfile' not found. Creating a default one..."
+
+
+if [[ -f "$1/Aptfile" ]]; then 
+  echo "Apt" 
+  exit 0 
+else 
+  echo "'Aptfile' not found. Creating a default one..." 
   echo -e "unixodbc\nunixodbc-dev" > "$AptfilePath"
-fi
