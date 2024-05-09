@@ -16,3 +16,4 @@ if [[ -f "$1/Aptfile" ]]; then
 else 
   echo "'Aptfile' not found. Creating a default one..." 
   echo -e "unixodbc\nunixodbc-dev" > "$AptfilePath"
+fi
