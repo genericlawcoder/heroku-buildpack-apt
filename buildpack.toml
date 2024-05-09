@@ -3,7 +3,7 @@ api = "0.9"
 [buildpack]
 id = "genericlawcoder/heroku-buildpack-apt"
 name = "Heroku Buildpack Apt"
-version = "2.1.3"
+version = "2.1.4"
 
 [[stacks]]
 id = "heroku-18"
