@@ -13,9 +13,6 @@ version = "2.0.0"
 
 # For backwards compatibility the minimum supported APIs are provided in RFC-0011 format
 # https://github.com/buildpacks/rfcs/blob/main/text/0011-lifecycle-descriptor.md
-[[api]]
-  platform = "0.3"
-  buildpack = "0.2"
 
 [[lifecycle]]
   version = "0.16.1"
