@@ -1,0 +1,7 @@
+[buildpack]
+id = "genericlawcoder/heroku-buildpack-apt"
+name = "Heroku Buildpack Apt"
+version = "1.0.0"
+
+[stacks]
+ids = ["io.buildpacks.stacks.bionic", "io.buildpacks.stacks.focal"]
