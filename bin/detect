@@ -3,12 +3,12 @@
 
 echo "Working directory: $(pwd)" 
 
-echo "Checking for Aptfile in: $1" 
+echo "Checking for Aptfile in: /cnb/buildpacks/genericlawcoder_heroku-buildpack-apt/2.1.4/Aptfile" 
 
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-if [[ -f "$1/Aptfile" ]]; then
+if [[ -f "/cnb/buildpacks/genericlawcoder_heroku-buildpack-apt/2.1.4/Aptfile" ]]; then
   echo "Apt"
   exit 0
 else
