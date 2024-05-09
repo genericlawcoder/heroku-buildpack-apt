@@ -2,6 +2,7 @@
 id = "genericlawcoder/heroku-buildpack-apt"
 name = "Heroku Buildpack Apt"
 version = "1.0.0"
+api = "0.2"
 
 [[stacks]]
 id = "heroku-20"
